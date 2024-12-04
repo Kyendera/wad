@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Data Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 p-8">
+    <h1 class="text-3xl font-bold text-center text-blue-600">Student Admission Data Visualization</h1>
+    <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+        <canvas id="admissionChart" class="w-full"></canvas>
+
+        <p class="text-center text-gray-600 mt-4">
+            This chart visualizes gender distribution among admitted students.
+            </p>
+    </div>
+
+
+      
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <canvas id="districtchart" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the students per district.
+                </p>
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <canvas id="trends" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the admission trends over the years.
+                </p> 
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <canvas id="popularity" class="w-full"></canvas>
+            
+            <p class="text-center text-gray-600 mt-4">
+            This chart visualizes the popular course.
+            </p> 
+        </div>
+
+
+     </body>   
+    <script src="script.js"></script>
+
+</html>
